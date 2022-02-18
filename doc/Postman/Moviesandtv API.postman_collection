@@ -1,0 +1,297 @@
+{
+	"info": {
+		"_postman_id": "d5bd2292-3700-4008-9441-a7ed0f162a1f",
+		"name": "Movie DB App",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Movie details",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/movie/634649",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"movie",
+						"634649"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Popular movies",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/movie/popular/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"movie",
+						"popular",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Top rated movies",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/movie/top_rated/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"movie",
+						"top_rated",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Upcoming movies",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/movie/upcoming/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"movie",
+						"upcoming",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Search movies",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/movie/search?searchQuery=emma&page=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"movie",
+						"search"
+					],
+					"query": [
+						{
+							"key": "searchQuery",
+							"value": "emma"
+						},
+						{
+							"key": "page",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Tv show details",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/tv/85552",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"tv",
+						"85552"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Popular tv shows",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/tv/popular/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"tv",
+						"popular",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Top rated tv shows",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/tv/top_rated/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"tv",
+						"top_rated",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "On the air tv shows",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/tv/on_the_air/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"tv",
+						"on_the_air",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Search tv shows",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/tv/search?searchQuery=emma&page=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"tv",
+						"search"
+					],
+					"query": [
+						{
+							"key": "searchQuery",
+							"value": "emma"
+						},
+						{
+							"key": "page",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Person details",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/person/1136406",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"person",
+						"1136406"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Search people",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/person/search?searchQuery=emma&page=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"person",
+						"search"
+					],
+					"query": [
+						{
+							"key": "searchQuery",
+							"value": "emma"
+						},
+						{
+							"key": "page",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
