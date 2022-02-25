@@ -7,6 +7,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+/**
+ * Provides information about Movies.
+ * @Author Mauro Montenegro Guzmán (https://mauromontenegro.github.io/)
+ */
 @RestController
 @RequestMapping("/api/movie")
 public class MovieController {
@@ -15,6 +19,7 @@ public class MovieController {
     private MovieService movieService;
 
     /**
+     * Gets Movie details after verifying it.
      * Info: https://developers.themoviedb.org/3/movies/get-movie-details
      * @param movie_id
      * @return
@@ -25,6 +30,7 @@ public class MovieController {
     }
 
     /**
+     * Gets a list of 'Popular' Movies.
      * Info: https://developers.themoviedb.org/3/movies/get-popular-movies
      * @param page
      * @return
@@ -35,6 +41,7 @@ public class MovieController {
     }
 
     /**
+     * Gets a list of 'Top Rated' Movies.
      * Info: https://developers.themoviedb.org/3/movies/get-top-rated-movies
      * @param page
      * @return
@@ -45,6 +52,7 @@ public class MovieController {
     }
 
     /**
+     * Gets a list of 'Upcoming' Movies.
      * Info: https://developers.themoviedb.org/3/movies/get-upcoming
      * @param page
      * @return
@@ -55,6 +63,7 @@ public class MovieController {
     }
 
     /**
+     * Gets a list of 'Now Playing' Movies.
      * Info: https://developers.themoviedb.org/3/movies/get-now-playing
      * @param page
      * @return
@@ -65,6 +74,7 @@ public class MovieController {
     }
 
     /**
+     * Gets a list of Movies according to a search query.
      * Info: https://developers.themoviedb.org/3/search/search-movies
      * @param searchQuery
      * @param page

@@ -7,6 +7,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+/**
+ * Provides information about TV Shows.
+ * @Author Mauro Montenegro Guzmán (https://mauromontenegro.github.io/)
+ */
 @RestController
 @RequestMapping("/api/tv")
 public class TvController {
@@ -15,6 +19,7 @@ public class TvController {
     private TvService tvService;
 
     /**
+     * Gets TV Show details after verifying it.
      * Info: https://developers.themoviedb.org/3/tv/get-tv-details
      * @param tv_id
      * @return
@@ -25,6 +30,7 @@ public class TvController {
     }
 
     /**
+     * Gets a list of 'Popular' TV Shows.
      * Info: https://developers.themoviedb.org/3/tv/get-popular-tv-shows
      * @param page
      * @return
@@ -35,6 +41,7 @@ public class TvController {
     }
 
     /**
+     * Gets a list of 'Top Rated' TV Shows.
      * Info: https://developers.themoviedb.org/3/tv/get-top-rated-tv
      * @param page
      * @return
@@ -45,6 +52,7 @@ public class TvController {
     }
 
     /**
+     * Gets a list of 'On the air' TV Shows.
      * Info: https://developers.themoviedb.org/3/tv/get-tv-on-the-air
      * @param page
      * @return
@@ -55,6 +63,7 @@ public class TvController {
     }
 
     /**
+     * Gets a list of TV Shows according to a search query.
      * Info: https://developers.themoviedb.org/3/search/search-tv-shows
      * @param searchQuery
      * @param page

@@ -4,8 +4,6 @@ import com.mmg.moviesandtv.api.models.tv.Tv;
 import com.mmg.moviesandtv.api.models.tv.TvList;
 import org.springframework.http.ResponseEntity;
 
-import java.util.List;
-
 public interface TvService {
 
     ResponseEntity<Tv> getDetails(Integer tvId);

@@ -7,6 +7,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+/**
+ * Provides information about Actors/Actresses.
+ * @Author Mauro Montenegro Guzmán (https://mauromontenegro.github.io/)
+ */
 @RestController
 @RequestMapping("/api/person")
 public class PersonController {
@@ -15,6 +19,7 @@ public class PersonController {
     private PersonService personService;
 
     /**
+     * Gets Person details after verifying it.
      * Info: https://developers.themoviedb.org/3/people/get-person-details
      * @param person_id
      * @return
@@ -25,6 +30,7 @@ public class PersonController {
     }
 
     /**
+     * Gets a list of People according to a search query.
      * Info: https://developers.themoviedb.org/3/search/search-people
      * @param searchQuery
      * @param page

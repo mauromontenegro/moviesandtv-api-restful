@@ -6,6 +6,10 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.http.client.SimpleClientHttpRequestFactory;
 import org.springframework.web.client.RestTemplate;
 
+/**
+ * REST API that provides information about Movies, TV Shows and Actors/Actresses.
+ * @Author Mauro Montenegro Guzmán (https://mauromontenegro.github.io/)
+ */
 @SpringBootApplication
 public class Application {
 

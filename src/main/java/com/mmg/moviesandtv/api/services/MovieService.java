@@ -4,8 +4,6 @@ import com.mmg.moviesandtv.api.models.movies.Movie;
 import com.mmg.moviesandtv.api.models.movies.MovieList;
 import org.springframework.http.ResponseEntity;
 
-import java.util.List;
-
 public interface MovieService {
 
     ResponseEntity<Movie> getDetails(Integer movie_id);
