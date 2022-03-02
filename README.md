@@ -2,7 +2,7 @@
 <h1> 💻 REST API to consume data from The Movie Database API.</h1>
 
 <p>
-  This repository contains the code I used to consume "The Movie Database API" for my website <a href="https://bit.ly/mtvdb"><b>Movies and TV Info</b></a>.
+  This repository contains the code I used to consume "The Movie Database API" for my website <a href="https://bit.ly/mtvdb" target="_blank"><b>Movies and TV Info</b></a>.
 </p>
 <p>
   ✔ Main features:
